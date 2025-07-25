@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-w: hsl(0, 100%, 100%);
+    --color-primary-g-1: hsl(0, 0%, 63%);
+    --color-primary-g-2: hsl(0, 0%, 27%);
+    --color-primary-b: hsl(0, 0%, 0%);
+    --font-ls: "League Spartan", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {
+        @apply max-w-[1310px] mx-auto;
+    }
+}
